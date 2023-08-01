@@ -1,0 +1,20 @@
+{
+	"description": "This is the description for Test Notification Template.",
+	"editorType": "richText",
+	"externalReferenceCode" : "NEW-TICKET-WAS-CREATED",
+	"name": "New Ticket Was Created",
+	"name_i18n": {
+        "en_US": "New Ticket Was Created"
+      },
+	"recipientType": "role",
+	"recipients": [
+		{
+			"roleName": "Ticket_solvers"
+		}
+	],
+	"subject": {
+		"en_US": "Hello ,\nA new ticket was created with the following subject : [%TICKET_SUBJECT%]"
+	},
+	"type": "userNotification",
+	"typeLabel": "User Notification"
+}

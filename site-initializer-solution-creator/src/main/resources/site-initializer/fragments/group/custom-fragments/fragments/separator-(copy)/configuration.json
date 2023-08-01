@@ -1,0 +1,16 @@
+{
+	"fieldSets": [
+		{
+			"configurationRole": "style",
+			"fields": [
+				{
+					"defaultValue": "var(--color-brand-primary)",
+					"label": "Separator Color",
+					"name": "separatorColor",
+					"type": "colorPicker"
+				}
+			],
+			"label": "separator-options"
+		}
+	]
+}

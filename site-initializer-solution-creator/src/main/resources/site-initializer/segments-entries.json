@@ -1,0 +1,11 @@
+[
+    {
+        "active": "true",
+        "name_i18n": {
+            "en-US": "Tickets Admins"
+        },
+        "segmentsEntryKey": "TICKETS-ADMINS",
+        "type": "com.liferay.portal.kernel.model.User",
+        "criteria": "{\"criteria\":{\"user\":{\"conjunction\":\"and\",\"filterString\":\"(emailAddress eq 'test@liferay.com' or emailAddress eq 'jane.doe@liferay.com')\",\"typeValue\":\"model\"}},\"filterStrings\":{\"model\":\"(emailAddress eq 'test@liferay.com' or emailAddress eq 'jane.doe@liferay.com')\"}}"
+    }
+]

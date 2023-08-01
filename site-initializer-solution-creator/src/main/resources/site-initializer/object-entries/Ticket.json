@@ -1,0 +1,80 @@
+{
+    "object-entries": [
+        {
+            "externalReferenceCode": "TICKET_1",
+            "wFStatus": {
+                "key": "open",
+                "name": "Open"
+            },
+            "attachment" : "[#DOCUMENT_FILE_ENTRY_ID:/site-initializer/documents/group/Ticket/example.pdf#]",
+            "subject": "How to adjust or tighten my frames?",
+            "description": "<p>Is there any company that you have partnered with in order to do little adjustments to my frames?</p>\n\n<ul data-border=\"0\" data-indent=\"0\" data-stringify-type=\"unordered-list\">\n</ul>",
+            "descriptionRawText": "Is there any company that you have partnered with in order to do little adjustments to my frames?"
+        },
+        {
+            "externalReferenceCode": "TICKET_2",
+            "wFStatus": {
+                "key": "close",
+                "name": "Close"
+            },
+            "attachment" : "[#DOCUMENT_FILE_ENTRY_ID:/site-initializer/documents/group/Ticket/example.pdf#]",
+            "subject": "Do you have any retail stores?",
+            "description": "<p>No, we don’t have any retail stores because we make the digital\n  experience even better.</p>",
+            "descriptionRawText": "No, we don’t have any retail stores because we make the digital experience even better.",
+            "r_assignee_userERC": "SUPPORT_SAM"
+        },
+        {
+            "externalReferenceCode": "TICKET_3",
+            "wFStatus": {
+                "key": "open",
+                "name": "Open"
+            },
+            "attachment" : "[#DOCUMENT_FILE_ENTRY_ID:/site-initializer/documents/group/Ticket/example.pdf#]",
+            "assigneeERC": "",
+            "relatedTicketERC": "788f6136-fef5-98b0-cb74-eccccf0a21d3",
+            "subject": "How do I measure eyeglasses or sunglasses?",
+            "description": "<p>All our glasses and sunglasses are a Standard SIze. For the majority of people, this Standard Size is the correct fit on the face.</p>",
+            "descriptionRawText": "All our glasses and sunglasses are a Standard SIze. For the majority of people, this Standard Size is the correct fit on the face.",
+            "r_assignee_userId": 0,
+            "r_assignee_userERC": "",
+            "r_relatedTicket_c_ticketERC": "TICKET_1"
+        },
+        {
+            "externalReferenceCode": "TICKET_4",
+            "wFStatus": {
+                "key": "open",
+                "name": "Open"
+            },
+            "attachment" : "[#DOCUMENT_FILE_ENTRY_ID:/site-initializer/documents/group/Ticket/example.pdf#]",
+            "subject": "Asking for help related to my glasses, model 45TRGR",
+            "description": "<p>I need to understand what's the process for sending my glassess to a review as they have different problems in the side pieces.</p>\n\n<ul data-border=\"0\" data-indent=\"0\" data-stringify-type=\"unordered-list\">\n</ul>",
+            "descriptionRawText": "I need to understand what's the process for sending my glassess to a review as they have different problems in the side pieces."
+        },
+        {
+            "externalReferenceCode": "TICKET_5",
+            "wFStatus": {
+                "key": "blocked",
+                "name": "Blocked"
+            },
+            "attachment" : "[#DOCUMENT_FILE_ENTRY_ID:/site-initializer/documents/group/Ticket/example.pdf#]",
+            "subject": "Is there any expected promo for this summer?",
+            "description": "<p>I need to adquire another pair of glasses. For existing customers,\n  are you thinking on creating a specific promotion?</p>",
+            "descriptionRawText": "I need to adquire another pair of glasses. For existing customers, are you thinking on creating a specific promotion?",
+            "r_assignee_userERC": "SUPPORT_SAM",
+            "r_relatedTicket_c_ticketERC": "TICKET_4"
+        },
+        {
+            "externalReferenceCode": "TICKET_6",
+            "wFStatus": {
+                "key": "inProgress",
+                "name": "In Progress"
+            },
+            "attachment" : "[#DOCUMENT_FILE_ENTRY_ID:/site-initializer/documents/group/Ticket/example.pdf#]",
+            "subject": "Main cleaning products",
+            "description": "<p>I want to know what are the main recommended brands to clean my\n  glasses, model 45TRGR</p>",
+            "descriptionRawText": "I want to know what are the main recommended brands to clean my glasses, model 45TRGR",
+            "r_assignee_userERC": "SUPPORT_SAM"
+        }
+    ],
+    "objectDefinitionName": "Ticket"
+}

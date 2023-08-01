@@ -1,0 +1,40 @@
+{
+    "object-entries": [
+        {
+          "externalReferenceCode": "STEP-1",
+          "stepNumber": 1,
+          "done": false
+        },
+        {
+          "externalReferenceCode": "STEP-2",
+          "stepNumber": 2,
+          "done": false
+        },
+        {
+          "externalReferenceCode": "STEP-3",
+          "stepNumber": 3,
+          "done": false
+        },
+        {
+          "externalReferenceCode": "STEP-4",
+          "stepNumber": 4,
+          "done": false
+        },
+        {
+          "externalReferenceCode": "STEP-5",
+          "stepNumber": 5,
+          "done": false
+        },
+        {
+          "externalReferenceCode": "STEP-6",
+          "stepNumber": 6,
+          "done": false
+        },
+        {
+          "externalReferenceCode": "STEP-7",
+          "stepNumber": 7,
+          "done": false
+        }
+      ],
+      "objectDefinitionName": "ProgressTracker"
+}

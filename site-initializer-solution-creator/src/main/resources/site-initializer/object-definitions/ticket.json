@@ -1,0 +1,276 @@
+{
+    "label": {
+        "en_US": "Ticket"
+    },
+    "restContextPath": "/o/c/tickets",
+    "externalReferenceCode":"TICKET",
+    "titleObjectFieldName" : "subject",
+    "name": "Ticket",
+    "objectFields": [
+        {
+            "DBType": "Long",
+            "businessType": "Attachment",
+            "externalReferenceCode": "97847877-edff-5ff2-a26b-e6fc70b29cb9",
+            "id": 87236,
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Attachment"
+            },
+            "listTypeDefinitionId": 0,
+            "name": "attachment",
+            "objectFieldSettings": [
+                {
+                    "name": "acceptedFileExtensions",
+                    "value": "jpeg, jpg, pdf, png"
+                },
+                {
+                    "name": "maximumFileSize",
+                    "value": 100
+                },
+                {
+                    "name": "fileSource",
+                    "value": "userComputer"
+                },
+                {
+                    "name": "showFilesInDocumentsAndMedia",
+                    "value": true
+                },
+                {
+                    "name": "storageDLFolderPath",
+                    "value": "/Ticket"
+                }
+            ],
+            "required": false,
+            "state": false,
+            "system": false,
+            "type": "Long"
+        },
+        {
+            "DBType": "Date",
+            "businessType": "Date",
+            "externalReferenceCode": "18c7d948-f14e-f5cb-d439-fb7da001577c",
+            "id": 87197,
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Create Date"
+            },
+            "listTypeDefinitionId": 0,
+            "name": "createDate",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "Date"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "9f791a53-7570-dd5a-6536-3a254033419c",
+            "id": 87196,
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Author"
+            },
+            "listTypeDefinitionId": 0,
+            "name": "creator",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "String"
+        },
+        {
+            "DBType": "Clob",
+            "businessType": "RichText",
+            "externalReferenceCode": "0e1f904b-1072-2326-b8f9-737c16c7a43c",
+            "id": 87205,
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Description"
+            },
+            "listTypeDefinitionId": 0,
+            "name": "description",
+            "objectFieldSettings": [],
+            "required": true,
+            "state": false,
+            "system": false,
+            "type": "Clob"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "4f8d3996-d8d5-8a0c-beb7-ec124e025acf",
+            "id": 87198,
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "External Reference Code"
+            },
+            "listTypeDefinitionId": 0,
+            "name": "externalReferenceCode",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "String"
+        },
+        {
+            "DBType": "Long",
+            "businessType": "LongInteger",
+            "externalReferenceCode": "8a4a0669-819d-5ccd-3e76-4af4f5e0bbbb",
+            "id": 87199,
+            "indexed": true,
+            "indexedAsKeyword": true,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "ID"
+            },
+            "listTypeDefinitionId": 0,
+            "name": "id",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "Long"
+        },
+        {
+            "DBType": "Date",
+            "businessType": "Date",
+            "externalReferenceCode": "88bb839b-52f1-dde2-6ebe-777796907f04",
+            "id": 87200,
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Modified Date"
+            },
+            "listTypeDefinitionId": 0,
+            "name": "modifiedDate",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "Date"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "b9d40d63-650e-8006-ea7f-907fae3d45e3",
+            "id": 87201,
+            "indexed": false,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "",
+            "label": {
+                "en_US": "Status"
+            },
+            "listTypeDefinitionId": 0,
+            "name": "status",
+            "objectFieldSettings": [],
+            "required": false,
+            "state": false,
+            "system": true,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Text",
+            "externalReferenceCode": "62858d4d-6c67-465d-e215-28abbbe43be2",
+            "id": 87204,
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "Subject"
+            },
+            "listTypeDefinitionId": 0,
+            "name": "subject",
+            "objectFieldSettings": [],
+            "required": true,
+            "state": false,
+            "system": false,
+            "type": "String"
+        },
+        {
+            "DBType": "String",
+            "businessType": "Picklist",
+            "defaultValue": "open",
+            "externalReferenceCode": "6db6fe62-6326-59fe-7e79-4ba05950ddc7",
+            "id": 87211,
+            "indexed": true,
+            "indexedAsKeyword": false,
+            "indexedLanguageId": "en_US",
+            "label": {
+                "en_US": "WF_Status"
+            },
+            "listTypeDefinitionExternalReferenceCode": "5b67c930-0f43-4a7f-0b89-0254e8329505",
+            "listTypeDefinitionId": "[$LIST_TYPE_DEFINITION_ID:Status$]",
+            "name": "wFStatus",
+            "objectFieldSettings": [
+                {
+                    "name": "stateFlow",
+                    "value": {
+                        "objectStates": [
+                            {
+                                "key": "open",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "inProgress"
+                                    },
+                                    {
+                                        "key": "blocked"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "inProgress",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "blocked"
+                                    },
+                                    {
+                                        "key": "close"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "blocked",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "inProgress"
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "close",
+                                "objectStateTransitions": [
+                                    {
+                                        "key": "open"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "required": true,
+            "state": true,
+            "system": false,
+            "type": "String"
+        }
+    ],
+    "panelAppOrder": "100",
+    "panelCategoryKey": "applications_menu.applications.content",
+    "pluralLabel": {
+        "en_US": "Tickets"
+    },
+    "scope": "company"
+}

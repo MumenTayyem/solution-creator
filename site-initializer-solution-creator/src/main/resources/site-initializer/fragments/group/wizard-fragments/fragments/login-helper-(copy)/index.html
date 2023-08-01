@@ -1,0 +1,81 @@
+<div class="fragment_1102">
+    <div class="login-card">
+        <div class="row">
+            <div class="col">
+                <div class="row align-items-center">
+                    <div class="col d-flex justify-content-center">
+                        [#if (configuration.person) == 'carl']
+                        <img src="[resources:carl.svg]" />
+                        [/#if]
+                        [#if (configuration.person) == 'sam']
+                        <img src="[resources:sam.svg]" />
+                        [/#if]
+                        [#if (configuration.person) == 'adam']
+                        <img src="[resources:brian.svg]" />
+                        [/#if]
+                    </div>
+                    <div class="col flex-grow-2">
+                        <h5>
+                            <lfr-editable id="txtTitle" type="text">
+                                Customer Carl
+                            </lfr-editable>
+                        </h5>
+                        <lfr-editable class="font-weight-light" id="txtSummary" type="text">
+                                Carl is a customer of Clarity. He can create tickets to explain what problems or
+                                questions he
+                                has
+                            </lfr-editable>
+                    </div>
+                </div>
+            </div>
+        </div>
+			<hr>
+        <div class="row">
+            <div class="col d-flex flex-col align-items-center justify-content-center">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="label">
+                                <p>Email</p>
+                            </td>
+                            <td class="value" onclick="copyToClipboard(this,'txtEmail')">
+                                <div class="d-flex justify-content-between">
+                                    <div id="txtEmail">
+                                        <lfr-editable id="email-${fragmentEntryLinkNamespace}"
+                                            type="text">customer.carl@liferay.com</lfr-editable>
+                                    </div>
+                                    <img src="[resources:copy.svg]" />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="spacer"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="label">
+                                <p>Password</p>
+                            </td>
+                            <td class="value" onclick="copyToClipboard(this,'txtPassword')">
+                                <div class="d-flex justify-content-between">
+                                    <div id="txtPassword">
+                                        <lfr-editable id="password-${fragmentEntryLinkNamespace}"
+                                            type="text">test</lfr-editable>
+                                    </div>
+                                    <img src="[resources:copy.svg]" />
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function copyToClipboard(element, id) {
+        let value = element.querySelector('#' + id).innerText;
+        navigator.clipboard.writeText(value);
+    }
+</script>

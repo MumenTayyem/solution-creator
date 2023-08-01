@@ -1,0 +1,11 @@
+{
+    "deletionType": "prevent",
+    "label": {
+        "en_US": "Related Ticket"
+    },
+    "name": "relatedTicket",
+    "objectDefinitionId1": "[$OBJECT_DEFINITION_ID:Ticket$]",
+    "objectDefinitionId2": "[$OBJECT_DEFINITION_ID:Ticket$]",
+    "objectDefinitionName2": "Ticket",
+    "type": "oneToMany"
+}

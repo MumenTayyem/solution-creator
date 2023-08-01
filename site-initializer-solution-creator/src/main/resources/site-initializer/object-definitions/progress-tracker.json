@@ -1,0 +1,63 @@
+{
+    "enableComments": false,
+    "enableCategorization": true,
+    "externalReferenceCode": "PROGRESS_TRACKER",
+    "objectFields": [
+        {
+            "indexed": true,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "Boolean",
+            "label": {
+                "en_US": "Done"
+            },
+            "type": "Boolean",
+            "required": false,
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "",
+            "name": "done",
+            "state": false,
+            "businessType": "Boolean",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "objectFieldSettings": [
+                {
+                    "name": "uniqueValues",
+                    "value": true
+                }
+            ],
+            "readOnly": "false",
+            "DBType": "Integer",
+            "label": {
+                "en_US": "Step Number"
+            },
+            "type": "Integer",
+            "required": true,
+            "indexedAsKeyword": false,
+            "system": false,
+            "indexedLanguageId": "",
+            "name": "stepNumber",
+            "state": false,
+            "businessType": "Integer",
+            "readOnlyConditionExpression": ""
+        }
+    ],
+    "restContextPath": "/o/c/progresstrackers",
+    "scope": "company",
+    "portlet": true,
+    "titleObjectFieldName": "stepNumber",
+    "active": true,
+    "defaultLanguageId": "en_US",
+    "label": {
+        "en_US": "Progress Tracker"
+    },
+    "panelCategoryKey": "applications_menu.applications.content",
+    "pluralLabel": {
+        "en_US": "Progress Trackers"
+    },
+    "system": false,
+    "name": "ProgressTracker"
+}
