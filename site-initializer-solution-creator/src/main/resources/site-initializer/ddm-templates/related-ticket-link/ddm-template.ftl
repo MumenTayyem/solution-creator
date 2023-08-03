@@ -5,6 +5,10 @@
   <#assign myTicket = restClient.get("/c/tickets/" + myID)/>
 	<#if (myTicket.r_relatedTicket_c_ticketId??) >
 	<#assign relatedTicketId = myTicket.r_relatedTicket_c_ticketId />
-	${'/web/guest/l/'+relatedTicketId}
+	  <#if (ObjectEntry_displayPageURL.getData())??>
+      <#assign dptLink=ObjectEntry_displayPageURL.getData() />
+      <#assign firstPart=(dptLink?split("/l/"))[0] />
+      ${firstPart}/l/${relatedTicketId}
+    </#if>
   </#if>
 </#if>

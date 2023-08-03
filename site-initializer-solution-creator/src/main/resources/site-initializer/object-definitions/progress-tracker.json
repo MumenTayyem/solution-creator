@@ -43,6 +43,120 @@
             "state": false,
             "businessType": "Integer",
             "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Date",
+            "label": {
+                "en_US": "Create Date"
+            },
+            "type": "Date",
+            "required": false,
+            "externalReferenceCode": "18c7d948-f14e-f5cb-d439-fb7da001577c",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "name": "createDate",
+            "state": false,
+            "businessType": "Date",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "String",
+            "label": {
+                "en_US": "Author"
+            },
+            "type": "String",
+            "required": false,
+            "externalReferenceCode": "9f791a53-7570-dd5a-6536-3a254033419c",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "name": "creator",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "objectFieldSettings": [],
+            "readOnly": "false",
+            "DBType": "String",
+            "label": {
+                "en_US": "External Reference Code"
+            },
+            "type": "String",
+            "required": false,
+            "externalReferenceCode": "4f8d3996-d8d5-8a0c-beb7-ec124e025acf",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "name": "externalReferenceCode",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": true,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Long",
+            "label": {
+                "en_US": "ID"
+            },
+            "type": "Long",
+            "required": false,
+            "externalReferenceCode": "8a4a0669-819d-5ccd-3e76-4af4f5e0bbbb",
+            "indexedAsKeyword": true,
+            "system": true,
+            "indexedLanguageId": "",
+            "name": "id",
+            "state": false,
+            "businessType": "LongInteger",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "Date",
+            "label": {
+                "en_US": "Modified Date"
+            },
+            "type": "Date",
+            "required": false,
+            "externalReferenceCode": "88bb839b-52f1-dde2-6ebe-777796907f04",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "name": "modifiedDate",
+            "state": false,
+            "businessType": "Date",
+            "readOnlyConditionExpression": ""
+        },
+        {
+            "indexed": false,
+            "objectFieldSettings": [],
+            "readOnly": "true",
+            "DBType": "String",
+            "label": {
+                "en_US": "Status"
+            },
+            "type": "String",
+            "required": false,
+            "externalReferenceCode": "b9d40d63-650e-8006-ea7f-907fae3d45e3",
+            "indexedAsKeyword": false,
+            "system": true,
+            "indexedLanguageId": "",
+            "name": "status",
+            "state": false,
+            "businessType": "Text",
+            "readOnlyConditionExpression": ""
         }
     ],
     "restContextPath": "/o/c/progresstrackers",
