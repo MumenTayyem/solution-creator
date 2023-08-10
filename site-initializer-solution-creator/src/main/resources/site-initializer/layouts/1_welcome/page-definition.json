@@ -578,7 +578,7 @@
                                                                                         "fragmentLink": {},
                                                                                         "text": {
                                                                                             "value_i18n": {
-                                                                                                "en_US": "<ol>\n\t<li><a href=\"https://docs.google.com/document/d/1cxb5oN8Eidyp-kV149AtKaIVExua2oj5a1ADeq510e8/edit#\">Log in</a> to Clarity as Customer Carl</li>\n\t<li>From the Home Page, click <a href=\"/web/[$GROUP_KEY$]/view-tickets\" rel=\"noopener noreferrer\" target=\"\">View My Tickets</a></li>\n\t<li>You will see a list of the tickets Customer Carl has already created</li>\n</ol>\n"
+                                                                                                "en_US": "<ol>\n\t<li><a href=\"/web/[$GROUP_KEY$]/sign-in\">Log in</a> to Clarity as Customer Carl</li>\n\t<li>From the Home Page, click <a href=\"/web/[$GROUP_KEY$]/view-tickets\" rel=\"noopener noreferrer\" target=\"\">View My Tickets</a></li>\n\t<li>You will see a list of the tickets Customer Carl has already created</li>\n</ol>\n"
                                                                                             }
                                                                                         }
                                                                                     }

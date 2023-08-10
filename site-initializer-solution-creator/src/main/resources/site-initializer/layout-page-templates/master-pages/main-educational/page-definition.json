@@ -220,7 +220,7 @@
                                             },
                                             {
                                               "fieldName": "siteKey",
-                                              "fieldValue": "[$GROUP_ID$]"
+                                              "fieldValue": "[$GROUP_KEY$]"
                                             }
                                           ]
                                         }

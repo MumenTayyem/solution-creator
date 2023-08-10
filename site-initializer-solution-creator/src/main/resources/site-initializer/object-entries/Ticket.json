@@ -8,7 +8,7 @@
             },
             "attachment" : "[#DOCUMENT_FILE_ENTRY_ID:/site-initializer/documents/group/Ticket/example.pdf#]",
             "subject": "How to adjust or tighten my frames?",
-            "description": "<p>Is there any company that you have partnered with in order to do little adjustments to my frames?</p>\n\n<ul data-border=\"0\" data-indent=\"0\" data-stringify-type=\"unordered-list\">\n</ul>",
+            "description": "<p>Is there any company that you have partnered with in order to do little adjustments to my frames?</p>",
             "descriptionRawText": "Is there any company that you have partnered with in order to do little adjustments to my frames?"
         },
         {
@@ -47,7 +47,7 @@
             },
             "attachment" : "[#DOCUMENT_FILE_ENTRY_ID:/site-initializer/documents/group/Ticket/example.pdf#]",
             "subject": "Asking for help related to my glasses, model 45TRGR",
-            "description": "<p>I need to understand what's the process for sending my glassess to a review as they have different problems in the side pieces.</p>\n\n<ul data-border=\"0\" data-indent=\"0\" data-stringify-type=\"unordered-list\">\n</ul>",
+            "description": "<p>I need to understand what's the process for sending my glassess to a review as they have different problems in the side pieces.</p>",
             "descriptionRawText": "I need to understand what's the process for sending my glassess to a review as they have different problems in the side pieces."
         },
         {

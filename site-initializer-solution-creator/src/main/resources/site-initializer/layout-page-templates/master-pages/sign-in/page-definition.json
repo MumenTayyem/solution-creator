@@ -123,7 +123,7 @@
                                   },
                                   "url": {
                                     "value_i18n": {
-                                      "en_US": "/documents/d/guest/logo-white-svg?download=true"
+                                      "en_US": "[$DOCUMENT_URL:/site-initializer/documents/group/Assets/Logo-white.svg$]"
                                     }
                                   }
                                 },
