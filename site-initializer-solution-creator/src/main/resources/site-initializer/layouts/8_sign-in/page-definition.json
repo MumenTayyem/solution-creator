@@ -164,7 +164,7 @@
                                             }
                                         },
                                         {
-                                            "id": "password-eaww",
+                                            "id": "password",
                                             "value": {
                                                 "fragmentLink": {}
                                             }
@@ -176,7 +176,7 @@
                                             }
                                         },
                                         {
-                                            "id": "email-eaww",
+                                            "id": "email",
                                             "value": {
                                                 "fragmentLink": {}
                                             }
@@ -233,7 +233,7 @@
                                             }
                                         },
                                         {
-                                            "id": "email-thkf",
+                                            "id": "email",
                                             "value": {
                                                 "fragmentLink": {},
                                                 "text": {
@@ -244,7 +244,7 @@
                                             }
                                         },
                                         {
-                                            "id": "password-thkf",
+                                            "id": "password",
                                             "value": {
                                                 "fragmentLink": {}
                                             }
@@ -312,7 +312,7 @@
                                             }
                                         },
                                         {
-                                            "id": "email-mwxe",
+                                            "id": "email",
                                             "value": {
                                                 "fragmentLink": {},
                                                 "text": {
@@ -323,7 +323,7 @@
                                             }
                                         },
                                         {
-                                            "id": "password-mwxe",
+                                            "id": "password",
                                             "value": {
                                                 "fragmentLink": {}
                                             }
