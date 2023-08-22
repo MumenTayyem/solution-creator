@@ -154,5 +154,23 @@
 		"resourceName": "com.liferay.object.model.ObjectDefinition#[$OBJECT_DEFINITION_ID:Ticket$]",
 		"roleName": "Petitionaries",
 		"scope": "1"
-    }
+    },
+	{
+		"actionIds": [
+			"VIEW"
+		],
+		"primKey": "[$LIST_TYPE_DEFINITION_ID:My Picklist$]",
+		"resourceName": "com.liferay.list.type.model.ListTypeDefinition",
+		"roleName": "User",
+		"scope": 4
+	},
+	{
+		"actionIds": [
+			"VIEW"
+		],
+		"primKey": "0",		
+		"resourceName": "com.liferay.portal.kernel.model.Role",
+		"roleName": "Ticket_solvers",
+		"scope": "1"
+	}		
 ]

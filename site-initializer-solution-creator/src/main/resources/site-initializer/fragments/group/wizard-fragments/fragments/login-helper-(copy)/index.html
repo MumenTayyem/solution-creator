@@ -38,10 +38,10 @@
                             <td class="label">
                                 <p>Email</p>
                             </td>
-                            <td class="value" onclick="copyToClipboard(this,'txtEmail')">
+                            <td class="value" onclick="copyToClipboard(this,'txtEmail-${configuration.person}')">
                                 <div class="d-flex justify-content-between">
-                                    <div id="txtEmail">
-                                        <lfr-editable id="email-${fragmentEntryLinkNamespace}"
+                                    <div id="txtEmail-${configuration.person}">
+                                        <lfr-editable id="email"
                                             type="text">customer.carl@liferay.com</lfr-editable>
                                     </div>
                                     <img src="[resources:copy.svg]" />
@@ -57,10 +57,10 @@
                             <td class="label">
                                 <p>Password</p>
                             </td>
-                            <td class="value" onclick="copyToClipboard(this,'txtPassword')">
+                            <td class="value" onclick="copyToClipboard(this,'txtPassword-${configuration.person}')">
                                 <div class="d-flex justify-content-between">
-                                    <div id="txtPassword">
-                                        <lfr-editable id="password-${fragmentEntryLinkNamespace}"
+                                   <div id="txtPassword-${configuration.person}">
+                                        <lfr-editable id="password"
                                             type="text">test</lfr-editable>
                                     </div>
                                     <img src="[resources:copy.svg]" />

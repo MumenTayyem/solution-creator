@@ -537,7 +537,7 @@
                                                                         "fragmentLink": {},
                                                                         "text": {
                                                                             "value_i18n": {
-                                                                                "en_US": "Viewing One Ticket"
+                                                                                "en_US": "Adding a Ticket"
                                                                             }
                                                                         }
                                                                     }
@@ -548,7 +548,7 @@
                                                                         "fragmentLink": {},
                                                                         "text": {
                                                                             "value_i18n": {
-                                                                                "en_US": "Adding a Ticket"
+                                                                                "en_US": "Viewing One Ticket"
                                                                             }
                                                                         }
                                                                     }
@@ -578,7 +578,7 @@
                                                                                         "fragmentLink": {},
                                                                                         "text": {
                                                                                             "value_i18n": {
-                                                                                                "en_US": "<ol>\n\t<li><a href=\"https://docs.google.com/document/d/1cxb5oN8Eidyp-kV149AtKaIVExua2oj5a1ADeq510e8/edit#\">Log in</a> to Clarity as Customer Carl</li>\n\t<li>From the Home Page, click <a href=\"/web/[$GROUP_KEY$]/view-tickets\" rel=\"noopener noreferrer\" target=\"\">View My Tickets</a></li>\n\t<li>You will see a list of the tickets Customer Carl has already created</li>\n</ol>\n"
+                                                                                                "en_US": "<ol>\n\t<li><a href=\"/web/[$GROUP_KEY$]/sign-in\">Log in</a> to Clarity as Customer Carl</li>\n\t<li>From the Home Page, click <a href=\"/web/[$GROUP_KEY$]/view-tickets\" rel=\"noopener noreferrer\" target=\"\">View My Tickets</a></li>\n\t<li>You will see an empty list of tickets by now</li>\n</ol>\n"
                                                                                             }
                                                                                         }
                                                                                     }
@@ -612,7 +612,7 @@
                                                                                         "fragmentLink": {},
                                                                                         "text": {
                                                                                             "value_i18n": {
-                                                                                                "en_US": "<ol>\n\t<li>Click the View link in the Action column to view a ticket. This is a <a href=\"https://learn.liferay.com/web/guest/w/dxp/site-building/displaying-content/using-display-page-templates/publishing-content-with-display-pages\">Display Page Template</a> that maps to and displays each ticket's specific data, you’ll learn it later, once you reach the Admin part.</li>\n\t<li>As a Clarity customer, you will see the ticket’s:&nbsp;\n\t<ul>\n\t\t<li>Subject and status (Open, In Progress, Blocked, Closed)</li>\n\t\t<li>Full description</li>\n\t\t<li>Assignee and any related tickets</li>\n\t\t<li>Downloadable attachments</li>\n\t</ul>\n\t</li>\n\t<li>You can use the “back” button to return to the complete ticket list.</li>\n</ol>\n"
+                                                                                                "en_US": "<ol>\n\t<li>You'll find a New Ticket button to create a ticket at the top right of the page. Click on it.</li>\n\t<li>A new form will appear where you can add the following info:\n\t<ul>\n\t\t<li>Subject: Add a subject. E.g., “Requesting help with my glasses order”</li>\n\t\t<li>Description: Add a description. E.g., “I can’t find the tracking information for my order.</li>\n\t\t<li>Related Ticket: Leave this empty, or select one of the pre-existing tickets.</li>\n\t\t<li>Attachment: You can leave it empty or you can add an example of an attachment. For that, please, Go to <a href=\"/web/[$GROUP_KEY$]/attachments\" rel=\"noopener noreferrer\" target=\"\">Learning &gt; Attachments</a> in the top menu, find the a folder called \"Attachments\", click on it, and then download one of the files in this folder. Then, upload this file to the ticket.\n\t\t<ul>\n\t\t\t<li>Don’t upload anything new or person from your own device.</li>\n\t\t</ul>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>After adding info, click Submit</li>\n</ol>\n"
                                                                                             }
                                                                                         }
                                                                                     }
@@ -646,7 +646,7 @@
                                                                                         "fragmentLink": {},
                                                                                         "text": {
                                                                                             "value_i18n": {
-                                                                                                "en_US": "<ol>\n\t<li>Back on the <a href=\"/web/[$GROUP_KEY$]/home\" rel=\"noopener noreferrer\" target=\"\">Home</a>, click on the <a href=\"/web/[$GROUP_KEY$]/new-ticket\" rel=\"noopener noreferrer\" target=\"\">Submit a Ticket</a> button.</li>\n\t<li>A new form will appear where you can add the following info:\n\t<ul>\n\t\t<li>Subject: Add a subject. E.g., “Requesting help with my glasses order”</li>\n\t\t<li>Description: Add a description. E.g., “I can’t find the tracking information for my order.</li>\n\t\t<li>Related Ticket: Leave this empty, or select one of the pre-existing tickets.</li>\n\t\t<li>Attachment: You can leave it empty or you can add an example of an attachment. For that, please, Go to <a href=\"/web/[$GROUP_KEY$]/attachments\" rel=\"noopener noreferrer\" target=\"\">Learning &gt; Attachments</a> in the top menu, find the a folder called \"Attachments\", click on it, and then download one of the files in this folder. Then, upload this file to the ticket.\n\t\t<ul>\n\t\t\t<li>Don’t upload anything new or person from your own device.</li>\n\t\t</ul>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>After adding info, click Submit</li>\n</ol>\n"
+                                                                                                "en_US": "<ol>\n\t<li>Click on the top menu in <a href=\"/web/[$GROUP_KEY$]/view-tickets\">View Tickets</a> to see the list again.</li><li>Click either the Number or the Title of your New Ticket to view its details. This is a <a href=\"https://learn.liferay.com/web/guest/w/dxp/site-building/displaying-content/using-display-page-templates/publishing-content-with-display-pages\">Display Page Template</a> that maps to and displays each ticket's specific data, you’ll learn it later, once you reach the Admin part.</li>\n\t<li>As a Clarity customer, you will see the ticket’s:&nbsp;\n\t<ul>\n\t\t<li>Subject and status (Open, In Progress, Blocked, Closed)</li>\n\t\t<li>Full description</li>\n\t\t<li>Assignee and any related tickets</li>\n\t\t<li>Downloadable attachments</li>\n\t</ul>\n\t</li>\n\t<li>You can use the “back” button at theleft to return to the complete ticket list.</li>\n</ol>\n"
                                                                                             }
                                                                                         }
                                                                                     }
