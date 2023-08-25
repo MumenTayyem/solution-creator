@@ -31,7 +31,7 @@
                 "type": "node",
                 "menuItems": [
                     {
-                        "friendlyURL": "/welcome",
+                        "friendlyURL": "/trialguide",
                         "name": "Trial Guide",
                         "type": "layout",
                         "useCustomName" : true

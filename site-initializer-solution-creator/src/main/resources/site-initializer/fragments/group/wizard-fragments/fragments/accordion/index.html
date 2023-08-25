@@ -84,14 +84,13 @@
         function updateStep(data, success, error) {
             console.log(data);
             $.ajax({
-                url: '/o/c/progresstrackers/' + data.id + '?p_auth=KJd5tOaN',
+                url: '/o/c/progresstrackers/' + data.id + '?p_auth='+Liferay.authToken,
                 success: success,
                 error: error,
                 method: 'PUT',
                 data: JSON.stringify(data),
                 headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': 'Basic YWRtaW4uYWRhbUBsaWZlcmF5LmNvbTp0ZXN0Cg=='
+                    'Content-Type': 'application/json'
                 }
             });
         }
@@ -200,8 +199,7 @@
                 success: success,
                 error: error,
                 headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': 'Basic YWRtaW4uYWRhbUBsaWZlcmF5LmNvbTp0ZXN0Cg=='
+                    'Content-Type': 'application/json'
                 }
             });
 

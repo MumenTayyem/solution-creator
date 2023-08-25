@@ -74,6 +74,16 @@
 		"roleName": "Ticket_solvers",
 		"scope": "1"
     },
+	{
+        "actionIds": [
+			"VIEW",
+            "UPDATE"
+		],
+		"primKey": "0",
+		"resourceName": "com.liferay.object.model.ObjectDefinition#[$OBJECT_DEFINITION_ID:ProgressTracker$]",
+		"roleName": "Ticket_solvers",
+		"scope": "1"
+    },
     {
         "actionIds": [
 			"ADD_OBJECT_ENTRY"
@@ -156,13 +166,23 @@
 		"scope": "1"
     },
 	{
+        "actionIds": [
+			"VIEW",
+            "UPDATE"
+		],
+		"primKey": "0",
+		"resourceName": "com.liferay.object.model.ObjectDefinition#[$OBJECT_DEFINITION_ID:ProgressTracker$]",
+		"roleName": "Petitionaries",
+		"scope": "1"
+    },
+	{
 		"actionIds": [
 			"VIEW"
 		],
-		"primKey": "[$LIST_TYPE_DEFINITION_ID:My Picklist$]",
+		"primKey": "[$LIST_TYPE_DEFINITION_ID:Status$]",
 		"resourceName": "com.liferay.list.type.model.ListTypeDefinition",
 		"roleName": "User",
-		"scope": 4
+		"scope": 1
 	},
 	{
 		"actionIds": [
