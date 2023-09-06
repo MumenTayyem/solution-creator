@@ -112,7 +112,7 @@
                             },
                             {
                                 "definition": {
-                                    "customCSS": ".[$FRAGMENT_CLASS$] input[type='text'],input[type='password'] {\n     width: 400px;\n}\n\n.[$FRAGMENT_CLASS$] .panel-body{\n  padding : 0;\n}\n\n.[$FRAGMENT_CLASS$] .panel-body label{\n  margin-left : 0;\n}",
+                                    "customCSS": ".[$FRAGMENT_CLASS$] input[type='text'],input[type='password'] {\n     width: 400px;\n}\n\n.[$FRAGMENT_CLASS$] .panel-body{\n  padding : 0;\n}\n\n.[$FRAGMENT_CLASS$] .panel-body label{\n  margin-left : 0;\n} input[type='text'],input[type='password'] {\n width: 400px; \n} label{\n color : white; \n}",
                                     "widgetInstance": {
                                         "widgetConfig": {
                                             "displayStyleGroupId": "[$GROUP_ID$]"

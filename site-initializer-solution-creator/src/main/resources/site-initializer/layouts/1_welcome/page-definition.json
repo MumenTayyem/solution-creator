@@ -218,7 +218,7 @@
 																"fragmentLink": {},
 																"text": {
 																	"value_i18n": {
-																		"en_US": "sign in with one of the users to get started"
+																		"en_US": "Sign in with one of the users in the next page to get started"
 																	}
 																}
 															}
@@ -249,7 +249,71 @@
 																"fragmentLink": {},
 																"text": {
 																	"value_i18n": {
-																		"en_US": "In this guided trial, you will see an example of how easy it is to build a soultion using and extending liferay dxp's low-code &amp; no code capabilities. follow the guide to leverage objects, client extensions, fragments and segmentation to build a customer portal."
+																		"en_US": "In this guided trial, you will see an example of how easy it is to build a soultion using and extending liferay dxp's low-code &amp; no code capabilities. Follow the guide to leverage objects, client extensions, fragments and segmentation to build a customer portal."
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"fontWeight": "fontWeightNormal",
+														"marginTop": "2",
+														"opacity": "80",
+														"textColor": "colorNeutral6"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"fragment": {
+														"key": "DIALECT-dialect-text",
+														"siteKey": "[$GROUP_KEY$]"
+													},
+													"fragmentConfig": {
+														"textType": "text-paragraph-sm"
+													},
+													"fragmentFields": [
+														{
+															"id": "element-text",
+															"value": {
+																"fragmentLink": {},
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Don't forget to open a new tab in your browser with the \"Trial Guide\" you'll find once you log in in the next page."
+																	}
+																}
+															}
+														}
+													],
+													"fragmentStyle": {
+														"fontWeight": "fontWeightNormal",
+														"marginTop": "2",
+														"opacity": "80",
+														"textColor": "colorNeutral6"
+													},
+													"indexed": true
+												},
+												"type": "Fragment"
+											},
+											{
+												"definition": {
+													"fragment": {
+														"key": "DIALECT-dialect-text",
+														"siteKey": "[$GROUP_KEY$]"
+													},
+													"fragmentConfig": {
+														"textType": "text-paragraph-sm"
+													},
+													"fragmentFields": [
+														{
+															"id": "element-text",
+															"value": {
+																"fragmentLink": {},
+																"text": {
+																	"value_i18n": {
+																		"en_US": "Follow the guide to leverage objects, client extensions, fragments and segmentation to build a customer portal."
 																	}
 																}
 															}

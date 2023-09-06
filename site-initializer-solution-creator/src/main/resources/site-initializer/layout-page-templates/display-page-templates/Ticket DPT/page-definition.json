@@ -763,50 +763,88 @@
                                                 "type": "Fragment"
                                             },
                                             {
-                                                "definition": {
-                                                    "fragment": {
-                                                        "key": "DIALECT-dialect-text",
-                                                        "siteKey": "[$GROUP_KEY$]"
+                                                "definition" : {
+                                                  "collectionConfig" : {
+                                                    "collectionReference" : {
+                                                      "className" : "com.liferay.object.internal.info.collection.provider.OneToManyObjectRelationshipRelatedInfoCollectionProvider_[$COMPANY_ID$]_C_Ticket_relatedTicket"
                                                     },
-                                                    "fragmentConfig": {
-                                                        "textType": "text-paragraph-sm"
+                                                    "collectionType" : "CollectionProvider"
+                                                  },
+                                                  "collectionViewports" : [ {
+                                                    "collectionViewportDefinition" : {
+                                                      "numberOfColumns" : 1
                                                     },
-                                                    "fragmentFields": [
-                                                        {
-                                                            "id": "element-text",
-                                                            "value": {
-                                                                "fragmentLink": {
-                                                                    "value": {
-                                                                        "href": {
-                                                                            "mapping": {
-                                                                                "fieldKey": "ddmTemplate__ddmTemplate_[$TEMPLATE_ENTRY_ID:Related Ticket Link$]",
-                                                                                "itemReference": {
-                                                                                    "contextSource": "DisplayPageItem"
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                },
-                                                                "text": {
-                                                                    "mapping": {
-                                                                        "fieldKey": "ObjectField_r_relatedTicket_c_ticketId",
-                                                                        "itemReference": {
-                                                                            "contextSource": "DisplayPageItem"
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }
-                                                        }
-                                                    ],
-                                                    "fragmentStyle": {
-                                                        "fontWeight": "fontWeightLight",
-                                                        "marginTop": "1",
-                                                        "textColor": "colorBrandPrimary"
-                                                    },
-                                                    "indexed": true
+                                                    "id" : "landscapeMobile"
+                                                  }, {
+                                                    "collectionViewportDefinition" : { },
+                                                    "id" : "portraitMobile"
+                                                  }, {
+                                                    "collectionViewportDefinition" : { },
+                                                    "id" : "tablet"
+                                                  } ],
+                                                  "displayAllItems" : true,
+                                                  "displayAllPages" : true,
+                                                  "listItemStyle" : "",
+                                                  "listStyle" : "",
+                                                  "numberOfColumns" : 1,
+                                                  "numberOfItems" : 5,
+                                                  "numberOfItemsPerPage" : 20,
+                                                  "numberOfPages" : 5,
+                                                  "paginationType" : "None",
+                                                  "showAllItems" : false,
+                                                  "templateKey" : ""
                                                 },
-                                                "type": "Fragment"
-                                            }
+                                                "pageElements" : [ {
+                                                  "definition" : {
+                                                    "collectionItemConfig" : { }
+                                                  },
+                                                  "pageElements" : [ {
+                                                    "definition" : {
+                                                      "fragment" : {
+                                                        "key" : "dialect-dialect-text",
+                                                        "siteKey" : "mysol"
+                                                      },
+                                                      "fragmentConfig" : {
+                                                        "textType" : "text-link-sm",
+                                                        "truncateText" : false
+                                                      },
+                                                      "fragmentFields" : [ {
+                                                        "id" : "element-text",
+                                                        "value" : {
+                                                          "fragmentLink" : {
+                                                            "value" : {
+                                                              "href" : {
+                                                                "mapping" : {
+                                                                  "fieldKey" : "ObjectEntry_displayPageURL",
+                                                                  "itemReference" : {
+                                                                    "contextSource" : "CollectionItem"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "text" : {
+                                                            "mapping" : {
+                                                              "fieldKey" : "ObjectField_subject",
+                                                              "itemReference" : {
+                                                                "contextSource" : "CollectionItem"
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      } ],
+                                                      "fragmentStyle" : {
+                                                        "fontWeight" : "fontWeightLight",
+                                                        "textColor" : "colorBrandPrimary"
+                                                      },
+                                                      "indexed" : true
+                                                    },
+                                                    "type" : "Fragment"
+                                                  } ],
+                                                  "type" : "CollectionItem"
+                                                } ],
+                                                "type" : "Collection"
+                                              } 
                                         ],
                                         "type": "Section"
                                     }

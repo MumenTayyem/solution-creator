@@ -6,6 +6,6 @@
         },
         "segmentsEntryKey": "TICKETS-ADMINS",
         "type": "com.liferay.portal.kernel.model.User",
-        "criteria": "{\"criteria\":{\"user\":{\"conjunction\":\"and\",\"filterString\":\"(emailAddress eq 'test@liferay.com' or emailAddress eq 'jane.doe@liferay.com')\",\"typeValue\":\"model\"}},\"filterStrings\":{\"model\":\"(emailAddress eq 'test@liferay.com' or emailAddress eq 'jane.doe@liferay.com')\"}}"
+        "criteria": "{\"criteria\":{\"user\":{\"conjunction\":\"and\",\"filterString\":\"(emailAddress eq 'admin.adam@liferay.com' or emailAddress eq 'support.sam@liferay.com')\",\"typeValue\":\"model\"}},\"filterStrings\":{\"model\":\"(emailAddress eq 'admin.adam@liferay.com' or emailAddress eq 'support.sam@liferay.com')\"}}"
     }
 ]

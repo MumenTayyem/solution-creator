@@ -746,7 +746,7 @@
                                                                                 "fragmentLink": {},
                                                                                 "text": {
                                                                                     "mapping": {
-                                                                                        "fieldKey": "ddmTemplate__ddmTemplate_[$TEMPLATE_ENTRY_ID:ATTACHMENT-DESCRIPTION-SUMMARIZED$]",
+                                                                                        "fieldKey": "ddmTemplate__ddmTemplate_[$TEMPLATE_ENTRY_ID:Attachment Description Summarized$]",
                                                                                         "itemReference": {
                                                                                             "contextSource": "CollectionItem"
                                                                                         }
